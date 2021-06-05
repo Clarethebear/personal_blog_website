@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main_styles.css">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Lato:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="post_styles.css">
+    <title>Blog Post</title>
+</head>
+
+<body>
+    <!-- header with title of page -->
+    <header class="header">
+        <div class="container">
+            <div id="pic">
+                <img src="assets/dublin.jpeg" alt="the river liffey in dublin" id="dublin">
+                <button id="city"><a href="google.com">Dublin</a></button>
+            </div>
+
+            <div id="pic">
+                <img src="assets/howth.jpeg" alt="water and boats in howth" id="howth">
+                <button id="city"><a href="google.com">Howth</a></button>
+            </div>
+
+            <div id="pic">
+                <img src="assets/sfocean.jpeg" alt="clock in london" id="london">
+                <button id="city"><a href="google.com">San Francisco</a></button>
+            </div>
+
+            <div id="pic">
+                <img src="assets/niagarafalls.jpeg" alt="niagara falls waterfall" id="niagarafalls">
+                <button id="city"><a href="google.com">Niagara Falls</a></button>
+            </div>
+
+            <div id="pic">
+                <img src="assets/paris.jpeg" alt="castle in paris" id="paris">
+                <button id="city"><a href="google.com">Paris</a></button>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="main_index.html">Home</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="google.com">Travel</a></li>
+                <li><a href="Facebook.com">Facebook</a></li>
+                <li><a href="Instagram.com">Instagram</a></li>
+                <li><a href="Twitter.com">Twitter</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-text">
+            <h1 id="heading">The Travel Blog</h1>
+            <p id="subtitle">Stay updated on the latest travel news!</p>
+            <input type="text" placeholder="Name...">
+            <input type="text" placeholder="Email...">
+            <button>Subscribe</button>
+        </div>
+    </header>
+
+    <!-- main content with blog post -->
+    <main>
+        <article class="blog-grid">
+            <h2 class="box" id="title">The Hidden Secrets of Venice</h2>
+            <p class="box" id="author">by Clare G.</p>
+            <p class="box" id="date">August 4, 2020</p>
+            <img src="assets/venice.jpeg" alt="houses and water in venice" class="box" id="image">
+
+            <div class="box" id="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit adipiscing bibendum est ultricies integer quis auctor. Augue interdum velit euismod in pellentesque. Feugiat vivamus at augue eget arcu dictum. Ultricies leo integer malesuada nunc vel. Rutrum quisque non tellus orci. Faucibus in ornare quam viverra orci sagittis eu volutpat. Ac turpis egestas integer eget aliquet nibh praesent. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Sit amet risus nullam eget felis. Volutpat est velit egestas dui id ornare arcu odio ut. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Quis vel eros donec ac odio tempor orci. Cras adipiscing enim eu turpis egestas.</p>
+                <p>In vitae turpis massa sed elementum tempus egestas sed. Purus gravida quis blandit turpis. Risus pretium quam vulputate dignissim suspendisse in est ante in. Nibh nisl condimentum id venenatis. Elementum pulvinar etiam non quam lacus suspendisse. Porta non pulvinar neque laoreet suspendisse interdum. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Nibh cras pulvinar mattis nunc. Eget velit aliquet sagittis id consectetur purus ut faucibus. Augue lacus viverra vitae congue eu consequat. Blandit aliquam etiam erat velit scelerisque in dictum non consectetur. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Et netus et malesuada fames ac turpis egestas maecenas.</p>
+                <p>Odio facilisis mauris sit amet massa. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Varius quam quisque id diam vel quam elementum pulvinar etiam. Sociis natoque penatibus et magnis dis. Enim neque volutpat ac tincidunt vitae semper. Urna nec tincidunt praesent semper. Auctor urna nunc id cursus metus aliquam eleifend mi in. Risus nullam eget felis eget nunc lobortis mattis aliquam. Sed blandit libero volutpat sed cras ornare arcu dui. Dis parturient montes nascetur ridiculus. Congue eu consequat ac felis donec et odio. Arcu felis bibendum ut tristique et egestas quis ipsum. Sit amet luctus venenatis lectus magna. Risus commodo viverra maecenas accumsan lacus. Consequat semper viverra nam libero justo laoreet. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing. Leo urna molestie at elementum eu. Nunc sed augue lacus viverra vitae congue.</p>
+            </div>
+        </article>
+
+        <article class="comment">
+            <p>LEAVE A COMMENT</p>
+            <textarea id="comment" name="comment" rows="10" cols="80">Your comment...</textarea>
+        </article>
+    </main>
+
+    <!-- footer section with contact info -->
+    <footer>
+        <p><a href="main_index.html">BACK TO HOME</a></p>
+
+        <nav>
+            <ul>
+                <li><a href="Facebook.com">FACEBOOK </a></li>
+                <li><a href="Instagram.com">INSTAGRAM</a></li>
+                <li><a href="Twitter.com">TWITTER</a></li>
+            </ul>
+        </nav>
+
+        <p>2021 - All Rights Reserved. Designed and Developed by Clarissa Gayton</p>
+    </footer>
+</body>
+</html>

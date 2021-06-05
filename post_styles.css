@@ -1,0 +1,112 @@
+.header {
+    background-color: #F5F5DC;
+}
+
+.header-text {
+    text-align: center;
+    padding: 2em;
+}
+
+.nav{
+    text-align: right;
+    background-color: #DEB887;
+    padding: 0.5em;
+}
+
+#heading {
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 80px;
+    padding: 0.5em;
+    margin: 0;
+}
+
+#subtitle {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: inline-flex;
+}
+  
+img {
+    width: 320px;
+    height: 200px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color:black;
+    text-decoration: none;
+}
+
+.blog-grid {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 30px 320px;
+    grid-template-rows: 20px 20px 20px 1fr;
+    grid-gap: 15px;
+    grid-template-areas: 
+    "top top top top top top top top"
+    "au au au au au au au au"
+    "dt dt dt dt dt dt dt dt"
+    "bottomLeft bottomLeft bottomLeft bottomRight bottomRight bottomRight bottomRight bottomRight";
+    padding: 0.5em;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    grid-area: top;
+}
+
+#author {
+    grid-area: au;
+}
+
+#date {
+    grid-area: dt;
+}
+
+#image {
+    grid-area: bottomLeft;
+    width: 100%;
+    height: 95%;
+}
+
+#text {
+    grid-area: bottomRight;
+}
+
+#city {
+    position: relative;
+    bottom: 100px;
+    left: 40%;
+    background-color: inherit;
+}
+
+#city a {
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    opacity: 0.5;
+}
+
+.comment {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: beige;
+}
